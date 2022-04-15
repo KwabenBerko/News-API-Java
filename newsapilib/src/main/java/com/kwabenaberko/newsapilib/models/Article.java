@@ -12,6 +12,7 @@ public class Article {
     private String url;
     private String urlToImage;
     private String publishedAt;
+    private String content;
 
     public Source getSource() {
         return source;
@@ -67,5 +68,13 @@ public class Article {
 
     public void setPublishedAt(String publishedAt) {
         this.publishedAt = publishedAt;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 }
