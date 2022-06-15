@@ -4,8 +4,8 @@ group = 'com.github.KwabenBerko'
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.squareup.retrofit2:converter-gson:2.5.0'
-    compile 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation files('libs/java-json.jar')
 }
 
