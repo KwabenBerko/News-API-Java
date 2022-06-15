@@ -89,7 +89,7 @@ public class TopHeadlinesRequest{
         }
 
         public Builder page(int page){
-            this.page = String.valueOf(pageSize);
+            this.page = String.valueOf(page);
             return this;
         }
 
