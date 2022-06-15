@@ -19,7 +19,7 @@ allprojects {
 #### Step 2 : Download via ```Gradle```:
 
 ```java
-implementation 'com.github.KwabenBerko:News-API-Java:1.0.0'
+implementation 'com.github.KwabenBerko:News-API-Java:1.0.1'
 ```
 
 
