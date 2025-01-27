@@ -5,6 +5,8 @@
 
 ## Download
 
+### Using Gradle
+
 #### Step 1. Add the JitPack repository to your root ```build.gradle``` file.
 
 ``` java
@@ -22,6 +24,32 @@ allprojects {
 implementation 'com.github.KwabenBerko:News-API-Java:1.0.2'
 ```
 
+### Using Maven
+
+#### Step 1. Add the JitPack repository to your ```pom.xml``` file.
+
+``` java
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+```
+
+#### Step 2 : Add the dependency to the dependencies in your ```pom.xml``` file:
+
+```java
+<dependencies>
+  ...
+  ...
+  <dependency>
+    <groupId>com.github.KwabenBerko</groupId>
+    <artifactId>News-API-Java</artifactId>
+    <version>1.0.2</version>
+  </dependency>
+</dependencies>
+```
 
 ## Usage
 
